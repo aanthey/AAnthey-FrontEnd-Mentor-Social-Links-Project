@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 12%);
+    font-size: 14px;
+}
+.card{ /* Card Styling */
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: grey;
+    background-color: hsl(0, 1%, 16%);
+    height: 60vh;
+    width: 40vh;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+#profilePic{ /* Profile Pic Styling */
+    box-sizing: border-box;
+    border-radius: 50%; 
+    margin-top: 15px;
+    margin-left: 38%;
+    height: 90px;
+}
+
+.profile{ /* Profile Text Styling */
+    text-align: center;
+    padding: auto;
+}
+
+#name{ /* Name Text Styling */
+    font-size: 23px;
+    padding: 5px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+#location{  /* Location Text Styling */
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+#title{ /* Title Text Styling */
+    padding-bottom: 10px;
+    color: hsl(0, 4%, 90%);
+    font-weight: 400;
+}
+
+.social{ /* Social Link Styling */
+    font-weight: 700;
+    background-color: hsl(0, 0%, 20%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: black;
+    width: 30vh;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 15px;
+    cursor: pointer;
+}
+.social:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: rgb(0, 0, 0);
+}
+
